@@ -1,0 +1,84 @@
+body {
+background-color:#171838;
+}
+
+        header {
+            color: white;
+            background: linear-gradient(to top,#23266F,#463CB2 );
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px 20px 0px 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        img{width:140px ;
+            height: 70px;
+            padding: 10 20 30 30;}
+
+        nav {
+            background-color: #463CB2;
+            color: #ffffff;
+            padding: 15px 5px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: rgb(237, 131, 0);
+        }
+
+        .main-content {
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+h2{color:#ffffff}
+        .main-content p {
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        .button-container {
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 20px 40px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            font-size: large;
+            color: white;
+            background:linear-gradient(rgb(255, 166, 1),#C73639);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #463CB2;
+            box-shadow: 0 0 10px black;
+        }
+
+        footer {
+            background-color: rgb(27, 25, 34);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+   
+        .mark{color:#E96236}
